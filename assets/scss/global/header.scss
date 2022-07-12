@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  div {
+    background-color: skyblue;
+  }
+
+  img {
+    height: 100px;
+    margin-left: 10px;
+    width: auto;
+  }
+
+  h1 {
+    display: inline;
+  }
+
+  ul {
+    display: inline-block;
+  }
+
+  li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+  }
+}

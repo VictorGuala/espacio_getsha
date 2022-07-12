@@ -1,0 +1,47 @@
+.contenedor-centrado {
+    @include contenedor-flex(row, space-evenly, center);
+
+    label {
+        font-size: $font-size-medium;
+    }
+}
+
+.contenedor-botones {
+    @include contenedor-flex(row, flex-end, center);
+
+    a {
+        font-size: $font-size-large;
+    }
+}
+
+.contacto-form {
+    @include panel-sizing(30rem, 5px);
+
+    form {
+        div {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.contacto-datos {
+    @include panel-sizing(20rem, 5px);
+    font-size: $font-size-large;
+}
+
+.ul-remove-style {
+    list-style-type: none;
+}
+
+p {
+    font-size: $font-size-xsmall;
+}
+h2{
+    font-size: $font-size-xlarge;
+    text-decoration: underline;
+}
+h3 {
+    font-size: $font-size-large;
+    font-weight: bold;
+    text-decoration: wavy;
+}
