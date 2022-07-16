@@ -1,48 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "./global/variables.scss";
+@import "./global/mixin.scss";
+@import "./global/header.scss";
+@import "./global/footer.scss";
+@import "./global/texto.scss";
+@import "./global/secciones.scss";
 
-header div {
-    background-color: skyblue;
-}
 
-header img {
-    height: 100px;
-    margin-left: 10px;
-    width: auto;
-}
-
-h1 {
-    display: inline;
-}
-
-ul {
-    display: inline-block;
-}
-
-li {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0 20px;
-}
-
-section#Principal img {
-    width: 200px;
-    height: 400px;
-    border: 1px solid grey;
-    background-color: dodgerblue;
-}
-
-section#Novedades img {
-    border: 1px solid grey;
-    border-radius: 8px;
-    margin: 10px;
-    width: 15rem;
-    height: auto;
-}
-
-footer {
-    background-color: skyblue;
-}
