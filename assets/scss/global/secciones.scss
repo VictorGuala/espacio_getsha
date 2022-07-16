@@ -1,0 +1,26 @@
+section#Principal img {
+  width: 200px;
+  height: 400px;
+  border: 1px solid grey;
+  background-color: dodgerblue;
+}
+
+section#Novedades img {
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin: 10px;
+  width: 15rem;
+  height: auto;
+}
+
+picture#productos img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid grey;
+  background-color: dodgerblue;
+}
+
+.ajusto-productos {
+  text-align: end;
+  padding-right: 0px;
+}
