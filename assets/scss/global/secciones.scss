@@ -14,6 +14,7 @@ section#Novedades {
     margin: 10px;
     width: 15rem;
     height: auto;
+    background-size: cover;
   }
   p{
     width: 100%;
@@ -28,10 +29,11 @@ section#Novedades {
 }
 
 picture#productos img {
-  width: 600px;
-  height: 300px;
+  width: 15rem;
+  height: 10rem;
   border: 1px solid grey;
   background-color: dodgerblue;
+  background-size: cover
 }
 
 .ajusto-productos {

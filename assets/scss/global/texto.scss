@@ -1,50 +1,57 @@
 .contenedor-centrado {
-    @include contenedor-flex(row, space-evenly, center);
-
-    label {
-        font-size: $font-size-medium;
-    }
+  @include contenedor-flex(row, space-evenly, center);
+  margin: 5px;
+  label {
+    font-size: $font-size-medium;
+  }
 }
 
 .contenedor-botones {
-    @include contenedor-flex(row, flex-end, center);
-
-    a {
-        font-size: $font-size-large;
-    }
+  @include contenedor-flex(row, flex-start, center);
+  margin: 5px;
+  a {
+    font-size: $font-size-large;
+  }
 }
 
 .contacto-form {
-    @include panel-sizing(30rem, 5px);
-
-    form {
-        div {
-            margin-bottom: 10px;
-        }
+  @include panel-sizing(30rem, 5px);
+  margin: 5px;
+  form {
+    width: auto;
+    div {
+      margin-bottom: 10px;
     }
+  }
 }
 
 .contacto-datos {
-    @include panel-sizing(20rem, 5px);
-    font-size: $font-size-large;
+  width: auto;
+  margin: 5px;
+  @include panel-sizing(20rem, 5px);
+  font-size: $font-size-large;
 }
-
 .ul-remove-style {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 p {
-    font-size: $font-size-small;
+  font-size: $font-size-small;
 }
-h1{
-    font-size: $font-size-h1;
+h1 {
+  font-size: $font-size-h1;
 }
-h2{
-    font-size: $font-size-xlarge;
-    text-decoration: underline;
+h2 {
+  font-size: $font-size-xlarge;
+  text-decoration: underline;
 }
 h3 {
-    font-size: $font-size-large;
-    font-weight: bold;
-    text-decoration: wavy;
+  font-size: $font-size-large;
+  font-weight: bold;
+  text-decoration: wavy;
+}
+@media (max-width: 768px) {
+.contenedor-centrado{
+    flex-direction: column;
+}
 }
