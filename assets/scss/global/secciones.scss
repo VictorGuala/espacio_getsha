@@ -1,21 +1,35 @@
-section#Principal img {
+section#Principal {
+  img {
   width: 200px;
-  height: 400px;
+  height: 200px;
   border: 1px solid grey;
   background-color: dodgerblue;
+  }
 }
 
-section#Novedades img {
-  border: 1px solid grey;
-  border-radius: 8px;
-  margin: 10px;
-  width: 15rem;
-  height: auto;
+section#Novedades {
+  img {
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin: 10px;
+    width: 15rem;
+    height: auto;
+  }
+  p{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+  p:hover{
+    -webkit-line-clamp: initial;
+  }
 }
 
 picture#productos img {
-  width: 200px;
-  height: 200px;
+  width: 600px;
+  height: 300px;
   border: 1px solid grey;
   background-color: dodgerblue;
 }
