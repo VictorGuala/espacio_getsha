@@ -8,7 +8,7 @@
 
 .contenedor-botones {
   @include contenedor-flex(row, flex-start, center);
-  margin: 5px;
+  /*margin: 5px;*/
   a {
     font-size: $font-size-large;
   }
@@ -51,7 +51,34 @@ h3 {
   text-decoration: wavy;
 }
 @media (max-width: 768px) {
-.contenedor-centrado{
-    flex-direction: column;
+  .contact-form {
+    input {
+        width: inherit !important;
+    }
 }
+.contenedor-botones a {
+  font-size: inherit;
+}
+  .contenedor-centrado{
+      flex-direction: column;
+  }
+  img#ajusto {
+    width: 4rem;
+    height: 4rem;
+  }
+  p {
+    font-size: $font-size-xsmall;
+  }
+  h1 {
+    font-size: $font-size-xlarge;
+  }
+  h2 {
+    font-size: $font-size-large;
+  }
+  h3 {
+    font-size: $font-size-medium;
+  }
+  .contacto-datos {
+    width: 75%;
+  }
 }

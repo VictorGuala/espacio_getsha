@@ -1,9 +1,9 @@
 section#Principal {
   img {
-  width: 200px;
-  height: 200px;
-  border: 1px solid grey;
-  background-color: dodgerblue;
+    width: 12.5rem;
+    height: 12.5rem;
+    border: 1px solid grey;
+    background-color: dodgerblue;
   }
 }
 
@@ -16,14 +16,14 @@ section#Novedades {
     height: auto;
     background-size: cover;
   }
-  p{
+  p {
     width: 100%;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
   }
-  p:hover{
+  p:hover {
     -webkit-line-clamp: initial;
   }
 }
@@ -33,10 +33,16 @@ picture#productos img {
   height: 10rem;
   border: 1px solid grey;
   background-color: dodgerblue;
-  background-size: cover
+  background-size: cover;
 }
 
 .ajusto-productos {
   text-align: end;
   padding-right: 0px;
+}
+
+@media (max-width: 768) {
+  .contenedor-centrado {
+    flex-direction: column;
+  }
 }
